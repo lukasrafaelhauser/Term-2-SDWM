@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'polya_regularregular';
+    src: url('/Users/l-r-h/Desktop/IE/GitHub/Term-2-SDWM/Homework_2/HTML/Fonts/polya-webfont.woff2') format('woff2'),
+    url('/Users/l-r-h/Desktop/IE/GitHub/Term-2-SDWM/Homework_2/HTML/Fonts/polya-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.container {
+    width:900px; 
+    height: 450px;
+  }
+  
+  header {
+    text-align:center; 
+    background: url("https://images.unsplash.com/photo-1414490929659-9a12b7e31907?ixlib=rb-1.2.1&auto=format&fit=crop&w=1334&q=80"); 
+    font-family: 'polya_regularregular' ;
+    color: rgb(51, 53, 58);
+    font-size: 36px;
+    width: 900px;
+    padding: 20px;
+    border: 0.5px solid rgb(51, 53, 58);
+    margin: 20px;
+  }
+  
+  .logo {
+    float: left;
+    padding: 15px
+  }
+  
+  .menu {
+    float: right;
+    padding: 15px
+  }
+  
+  .first-box {
+    width:300px; 
+    float:left; 
+    text-align: center;
+    font-family: 'polya_regularregular' ; 
+  
+    margin: 50px;
+    font-family: 'polya_regularregular' ;
+    color: rgb(51, 53, 58);
+    font-size: 20px;
+    position:relative;
+
+  }
+ 
+
+  .first-box p {
+    padding-left: 80px;
+    padding-top: 50px;
+  }
+  
+  .second-box {
+    width:400px; 
+    font-family: 'polya_regularregular' ;
+    color: rgb(51, 53, 58);
+    float:right; 
+    margin: 50px;
+    text-align: right;
+  }
+  
+  .second-box p {
+    color: rgb(51, 53, 58);
+    font-size: 20px;
+    padding-left: 110px;
+    padding-top: 50px;
+  }
+  
+  footer {
+    width:900px; 
+    float:left; 
+    background: rgba(51, 53, 58, 0.7); 
+    font-family: 'polya_regularregular' ;
+    color: whitesmoke;
+    height: 50px;
+  }
+  
+  footer div {
+    padding: 15px;
+  }
